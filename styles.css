@@ -1,0 +1,26 @@
+/* @import url("https://webgl2fundamentals.org/webgl/resources/webgl-tutorials.css");
+body {
+  margin: 0;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.canvas-container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+#canvas {
+  position: absolute;
+  background-color:lightgrey
+}
+#button {
+  position:absolute;
+  left:30%;
+  top:40%
+} */
+
+@import url("https://webgl2fundamentals.org/webgl/resources/webgl-tutorials.css");

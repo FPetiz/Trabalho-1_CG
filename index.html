@@ -1,0 +1,49 @@
+<div class="controls-section">
+    <!-- Your existing controls -->
+    <div class="state-controls">
+        <button onclick="saveObjectsState()">Save Scene State</button>
+        <input type="file" id="stateLoader" accept=".json" style="display: none;">
+        <button onclick="document.getElementById('stateLoader').click()">Load Scene State</button>
+        <button onclick="removeSelectedObject()">Remove Selected</button>
+    </div>
+    
+    <div class="slider-group">
+        <label class="slider-label">X Position</label>
+        <input type="range" min="-100" max="100" step="0.1" value="0" id="xSlider">
+        
+        <label class="slider-label">Y Position</label>
+        <input type="range" min="-100" max="100" step="0.1" value="0" id="ySlider">
+        
+        <label class="slider-label">Z Position</label>
+        <input type="range" min="-100" max="100" step="0.1" value="0" id="zSlider">
+    </div>
+
+    <div class="slider-group">
+        <label class="slider-label">X Rotation</label>
+        <input type="range" min="-1" max="1" step="0.01" value="0" id="xRotationSlider">
+        
+        <label class="slider-label">Y Rotation</label>
+        <input type="range" min="-1" max="1" step="0.01" value="0" id="yRotationSlider">
+        
+        <label class="slider-label">Z Rotation</label>
+        <input type="range" min="-1" max="1" step="0.01" value="0" id="zRotationSlider">
+        
+        <label class="slider-label">Scale</label>
+        <input type="range" min="0.1" max="2" step="0.1" value="1" id="scaleSlider">
+    </div>
+    <div class="dropdown-group"> 
+        <select id="item-list" name="item-list"></select>
+    </div>
+</div>
+
+<div class="canvas-container">
+    <canvas class="webgl" id="canvas" width="1280" height="720"></canvas>
+</div>
+
+<script src="https://webgl2fundamentals.org/webgl/resources/twgl-full.min.js"></script>
+<script src="https://webgl2fundamentals.org/webgl/resources/m4.js"></script>
+<script src="https://webgl2fundamentals.org/webgl/resources/m3.js"></script>
+
+<script type="module" src="trabalho.js"></script>
+<script type="module" src="menu.js"></script>
+
