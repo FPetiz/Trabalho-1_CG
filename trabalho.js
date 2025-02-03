@@ -940,7 +940,7 @@ async function main() {
             objeto.position[2]*0.1
           );
 
-          matrix = m4.multiply(matrix, m4.xRotation(Math.PI * objeto.rotation[0]));
+          matrix = m4.multiply(matrix, m4.xRotation(objeto.rotation[0]));
           matrix = m4.multiply(matrix, m4.yRotation(Math.PI * objeto.rotation[1]));
           matrix = m4.multiply(matrix, m4.zRotation(Math.PI * objeto.rotation[2]));     
           
