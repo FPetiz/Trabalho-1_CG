@@ -940,15 +940,10 @@ async function main() {
             objeto.position[2]*0.1
           );
           
-          // Aplica a rotação em espaço local
-          const xRotation = m4.xRotation(Math.PI * objeto.rotation[0]);
-          const yRotation = m4.yRotation(Math.PI * objeto.rotation[1]);
-          const zRotation = m4.zRotation(Math.PI * objeto.rotation[2]);
-          
           // Combina as rotações
-          matrix = m4.multiply(matrix, zRotation); 
-          matrix = m4.multiply(matrix, yRotation); 
-          matrix = m4.multiply(matrix, xRotation);             
+          matrix = m4.multiply(matrix, m4.xRotation(Math.PI * objeto.rotation[0])); 
+          matrix = m4.multiply(matrix, m4.yRotation(Math.PI * objeto.rotation[1])); 
+          matrix = m4.multiply(matrix, m4.zRotation(Math.PI * objeto.rotation[2]));             
           
           if (objeto.scale !== 1) {
             matrix = m4.scale(matrix, objeto.scale, objeto.scale, objeto.scale);
