@@ -1,0 +1,569 @@
+[
+  {
+    "nome": "ruaReta",
+    "position": [
+      0,
+      10,
+      0
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.52,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "ruaReta",
+    "position": [
+      -16.8,
+      10,
+      -1
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.52,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "ruaReta",
+    "position": [
+      -55.8,
+      10,
+      -3.9
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      0.47,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "Bifurcacao",
+    "position": [
+      -36.3,
+      10,
+      -2.3
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      0.48,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "esquina",
+    "position": [
+      -75,
+      10,
+      -5
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "FaixaSeguranca",
+    "position": [
+      19.9,
+      10,
+      1.2
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.52,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "ruaReta",
+    "position": [
+      39.8,
+      10,
+      2.4
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.52,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "ruaReta",
+    "position": [
+      -75.3,
+      10,
+      14.8
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "ruaReta",
+    "position": [
+      -35.3,
+      10,
+      -22.2
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PredioF",
+    "position": [
+      -55.5,
+      24.3,
+      14.6
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -4.661560026875122e-8,
+      -1.524999976158142,
+      0
+    ],
+    "rotation": [
+      0,
+      1,
+      -0.01
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PredioH",
+    "position": [
+      4.7,
+      20.7,
+      -21.9
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -4.661560026875122e-8,
+      -1.1749999523162842,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "predioB",
+    "position": [
+      -54.3,
+      17.5,
+      -24
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.824999988079071,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "predioD",
+    "position": [
+      -15.5,
+      24.4,
+      -21.3
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -1.4850000143051147,
+      -0.010210514068603516
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "predioB",
+    "position": [
+      -74.5,
+      17.8,
+      -24.5
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.824999988079071,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "predioB",
+    "position": [
+      25.6,
+      17.5,
+      19.9
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.824999988079071,
+      0
+    ],
+    "rotation": [
+      0,
+      0.98,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PredioF",
+    "position": [
+      24.5,
+      24.6,
+      -19.2
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -4.661560026875122e-8,
+      -1.524999976158142,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.02,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "esquina",
+    "position": [
+      -34.7,
+      9.9,
+      -42.5
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -0.05000000074505806,
+      0
+    ],
+    "rotation": [
+      0,
+      -0.01,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "predioD",
+    "position": [
+      -54.9,
+      23.6,
+      -45.3
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0,
+      -1.4850000143051147,
+      -0.010210514068603516
+    ],
+    "rotation": [
+      0,
+      0.49,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "Sinaleira",
+    "position": [
+      10.5,
+      15.4,
+      -8.1
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0.3651620149612427,
+      -0.48475199937820435,
+      0.001216999487951398
+    ],
+    "rotation": [
+      0,
+      0.45,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PosteDeLuz",
+    "position": [
+      -25.7,
+      14.6,
+      -13.4
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0.10455650836229324,
+      -0.47996649146080017,
+      8.201599122070746e-11
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PosteDeLuz",
+    "position": [
+      -25.5,
+      15.3,
+      -12.5
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0.10455650836229324,
+      -0.47996649146080017,
+      8.201599122070746e-11
+    ],
+    "rotation": [
+      0,
+      0.75,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "carroPolicia",
+    "position": [
+      7.7,
+      12,
+      -3.6
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -0.000004494260792853311,
+      -0.16079600155353546,
+      0.003298510331660509
+    ],
+    "rotation": [
+      0,
+      -0.54,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "carroPolicia",
+    "position": [
+      -10.4,
+      11.7,
+      -4.8
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -0.000004494260792853311,
+      -0.16079600155353546,
+      0.003298510331660509
+    ],
+    "rotation": [
+      0,
+      -0.54,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "carroPolicia",
+    "position": [
+      -72,
+      11.8,
+      2.2
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -0.000004494260792853311,
+      -0.16079600155353546,
+      0.003298510331660509
+    ],
+    "rotation": [
+      0,
+      0.87,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "CarroVermelho",
+    "position": [
+      -42.2,
+      11.6,
+      -9.9
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      -0.000004494260792853311,
+      -0.13886049389839172,
+      -0.007701504975557327
+    ],
+    "rotation": [
+      0,
+      -0.68,
+      -0.03
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PosteDeLuz",
+    "position": [
+      -83.4,
+      16.2,
+      -14.4
+    ],
+    "visivel": true,
+    "selected": false,
+    "objOffset": [
+      0.10455650836229324,
+      -0.47996649146080017,
+      8.201599122070746e-11
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  {
+    "nome": "PosteDeLuz",
+    "position": [
+      -84.1,
+      14.9,
+      -15.8
+    ],
+    "visivel": true,
+    "selected": true,
+    "objOffset": [
+      0.10455650836229324,
+      -0.47996649146080017,
+      8.201599122070746e-11
+    ],
+    "rotation": [
+      0,
+      0.54,
+      0
+    ],
+    "scale": 1
+  }
+]
