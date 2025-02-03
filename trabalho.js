@@ -942,7 +942,7 @@ async function main() {
           
           matrix = m4.multiply(matrix, m4.zRotation(Math.PI * objeto.rotation[2]));
           matrix = m4.multiply(matrix, m4.yRotation(Math.PI * objeto.rotation[1]));
-          matrix = m4.multiply(matrix, m4.xRotation(Math.PI * objeto.rotation[0]));            
+          matrix = m4.multiply(matrix, m4.xRotation(Math.PI * objeto.rotation[0] * 2.5));            
           
           if (objeto.scale !== 1) {
             matrix = m4.scale(matrix, objeto.scale, objeto.scale, objeto.scale);
