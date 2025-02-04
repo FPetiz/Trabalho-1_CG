@@ -628,7 +628,7 @@ async function main() {
     selectObject(selectedIndex);
   });
 
-  // deseleciona todos os objetos
+  // declina todos os objetos
   function deselectAllObjects() {
     for (const objeto of objetos) {
       objeto.selected = false;
@@ -653,31 +653,29 @@ async function main() {
     }
   }
 
+  // FUnção para remover um objeto da cena
   window.removeSelectedObject = function() {
     const select = document.getElementById('item-list');
     const selectedIndex = parseInt(select.value);
     
-    // Check if there's a selected object
+    // Verifica se tem um objeto elecionado
     if (selectedIndex >= 0 && selectedIndex < objetos.length) {
-        // Ask for confirmation
         if (confirm('Are you sure you want to remove this object?')) {
-            // Remove the object from the objetos array
+            // Remove o objeto do array
             objetos.splice(selectedIndex, 1);
-            
-            // Remove the option from the dropdown
+            // Remove do dropdown
             select.remove(select.selectedIndex);
             
-            // Update the values of remaining options
             for (let i = 0; i < select.options.length; i++) {
                 select.options[i].value = i;
             }
             
-            // If there are still objects, select the first one
+            // Seleciona o objeto restantese tem
             if (objetos.length > 0) {
                 select.value = 0;
                 selectObject(0);
             } else {
-                // If no objects remain, reset the sliders
+                // Reseta o slider se não tiver
                 updateSlider(0, 0, 0, 0, 0, 0, 1);
             }
         }
@@ -940,7 +938,6 @@ async function main() {
             objeto.position[2]*0.1
           );
           
-          // Combina as rotações
           matrix = m4.multiply(matrix, m4.xRotation(Math.PI * objeto.rotation[0])); 
           matrix = m4.multiply(matrix, m4.yRotation(Math.PI * objeto.rotation[1])); 
           matrix = m4.multiply(matrix, m4.zRotation(Math.PI * objeto.rotation[2]));             
