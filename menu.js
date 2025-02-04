@@ -1,8 +1,5 @@
 "use strict";
 
-// This is not a full .obj parser.
-// see http://paulbourke.net/dataformats/obj/
-
 function parseOBJ(text) {
   // because indices are base 1 let's just fill in the 0th data
   const objPositions = [[0, 0, 0]];
@@ -341,7 +338,7 @@ async function main() {
     defaultWhite: twgl.createTexture(gl, {src: [255, 255, 255, 255]}),
   };
 
-  // load texture for materials
+  // Carrega texturas para materiais
   for (const material of Object.values(materials)) {
     Object.entries(material)
       .filter(([key]) => key.endsWith('Map'))
@@ -367,31 +364,16 @@ async function main() {
 
 
   parts[i] = obj[i].geometries.map(({material, data}) => {
-    // Because data is just named arrays like this
-    //
-    // {
-    //   position: [...],
-    //   texcoord: [...],
-    //   normal: [...],
-    // }
-    //
-    // and because those names match the attributes in our vertex
-    // shader we can pass it directly into `createBufferInfoFromArrays`
-    // from the article "less code more fun".
 
     if (data.color) {
       if (data.position.length === data.color.length) {
-        // it's 3. The our helper library assumes 4 so we need
-        // to tell it there are only 3.
         data.color = { numComponents: 3, data: data.color };
       }
     } else {
-      // there are no vertex colors so just use constant white
       data.color = { value: [1, 1, 1, 1] };
     }
 
-    // create a buffer for each array by calling
-    // gl.createBuffer, gl.bindBuffer, gl.bufferData
+    // cria um buffer para cada array
     const bufferInfo = twgl.createBufferInfoFromArrays(gl, data);
     const vao = twgl.createVAOFromBufferInfo(gl, meshProgramInfo, bufferInfo);
     return {
@@ -490,7 +472,6 @@ async function main() {
     u_world = m4.translate(u_world, ...objOffset);
 
 
-    // Sinaleira else if (y > 337 && y < 376)
     for (const {bufferInfo, vao, material} of parts[0]) {
       const translatedPredio = m4.translate(u_world, 20, 1, 0)
       const tamCarro = m4.scale(translatedPredio, 1.5, 1.5, 1.5);
