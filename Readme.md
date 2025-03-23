@@ -1,6 +1,5 @@
 ## Referência
-Este trabalho foi desenvolvido a partir da base de código e dos shaders vertex e fragment encontrados em:
--   [WebGL Load OBJ with MTL](https://webgl2fundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html)
+Este trabalho foi desenvolvido a partir da base de código e dos shaders vertex e fragment encontrados em [WebGL Load OBJ with MTL](https://webgl2fundamentals.org/webgl/lessons/webgl-load-obj-w-mtl.html).
 
 # Editor de Cena com WebGL
 
